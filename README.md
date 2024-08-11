@@ -13,7 +13,7 @@ RAG зависит от качества извлечения информаци
 Системы RAG должны уметь определять, когда они не знают ответа.
 
 ## Наше решение
-[!image](https://github.com/Kotyga/smiles-rag/blob/main/src/pipeline.png)
+![image](https://github.com/Kotyga/smiles-rag/blob/main/src/pipeline.png)
 
 
 ## Contributors
