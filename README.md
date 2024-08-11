@@ -15,6 +15,12 @@ RAG зависит от качества извлечения информаци
 ## Наше решение
 ![image](https://github.com/Kotyga/smiles-rag/blob/main/src/pipeline.png)
 
+## Результаты
+|Pipeline          |faithfulness|answer_relevance|context_precision|context_recall|Неопределенность|
+|------------------|------------|----------------|-----------------|--------------|----------------|
+| LLM only         |0.68        |0.72            |0.66             |0.70          |0.1             |
+| RAG only         |0.79        |0.81            |0.78             |0.80          |0.05            |
+| RAG + clustering |0.82        |0.83            |0.82             |0.84          |0.2             |
 
 ## Contributors
 
